@@ -500,8 +500,9 @@
           <p class="footer-form-text">Subscribe</p>
 
           <form class="footer-form">
-            <label for="" class="footer-form-label">
+            <label for="user-email" class="footer-form-label">
               <input
+                id="user-email"
                 type="email"
                 name="email-name"
                 placeholder="E-mail"
@@ -522,13 +523,11 @@
     <!-- Modal overlay -->
     <div class="modal-overlay is-open">
       <div class="modal">
-        <div class="button-container">
-          <button type="button" class="close-btn">
-            <svg class="close-icon" width="8" height="8">
-              <use href="./images/form-icons.svg#icon-close"></use>
-            </svg>
-          </button>
-        </div>
+        <button type="button" class="close-btn">
+          <svg class="close-icon" width="8" height="8">
+            <use href="./images/form-icons.svg#icon-close"></use>
+          </svg>
+        </button>
 
         <p class="modal-title">Leave your contacts and we will call you back</p>
 
@@ -579,10 +578,10 @@
           </div>
 
           <div class="label-container textarea">
-            <label for="text-field" class="modal-label">Comment</label>
+            <label for="user-comment" class="modal-label">Comment</label>
             <textarea
-              id="text-field"
-              name="text-field"
+              id="user-comment"
+              name="user-comment"
               class="modal-textarea"
               placeholder="Text input"
             ></textarea>
@@ -592,10 +591,10 @@
               class="input-checkbox visually-hidden"
               type="checkbox"
               value="true"
-              name="privacy-policy"
-              id="privacy-policy"
+              name="user-privacy"
+              id="user-privacy"
             />
-            <label for="privacy-policy" class="input-check-text">
+            <label for="user-privacy" class="input-check-text">
               <span class="check-empty"
                 ><svg class="new-check-icon" width="10" height="8">
                   <use href="./images/form-icons.svg#icon-click"></use>
